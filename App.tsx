@@ -19,7 +19,7 @@ const App = () => {
 
   const menuItems: MenuItem[] = [
     { 
-      id: 'market', icon: Globe, label: '市场管理', 
+      id: 'market', icon: Globe, label: 'BI市场投放管理后台', 
       subItems: [
         { id: 'country', label: '国家组合管理', icon: Database },
         { id: 'cost', label: '花费管理', icon: BarChart3 },
@@ -76,7 +76,7 @@ const App = () => {
       <aside className="w-64 bg-slate-900 text-slate-300 flex flex-col shadow-2xl z-50">
         <div className="p-6 flex items-center gap-3 border-b border-slate-800/50 mb-4 bg-slate-900 shadow-inner">
           <div className="w-10 h-10 bg-blue-600 rounded-2xl flex items-center justify-center shadow-lg ring-4 ring-blue-500/5 rotate-3 hover:rotate-0 transition-transform duration-300"><Globe className="text-white w-6 h-6" /></div>
-          <span className="font-black text-2xl text-white tracking-tighter italic uppercase select-none">Shuoxing<span className="text-blue-500">BI</span></span>
+          <span className="font-black text-2xl text-white tracking-tighter select-none">BI市场投放管理后台</span>
         </div>
         <nav className="flex-1 overflow-y-auto px-4 py-2 space-y-1 scrollbar-hide">
           {menuItems.map((item) => (
