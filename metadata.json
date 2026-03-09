@@ -1,0 +1,5 @@
+{
+  "name": "BI市场投放管理后台",
+  "description": "BI市场投放管理后台，用于管理国家、成本、媒体、应用、广告主及 CPI 配置等业务数据。",
+  "requestFramePermissions": []
+}
