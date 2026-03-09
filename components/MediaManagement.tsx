@@ -57,7 +57,7 @@ const MediaManagement = () => {
 
   const handleSave = () => {
     if (!formData.name) {
-      alert("请输入媒体");
+      alert("请输入媒体名称");
       return;
     }
 
